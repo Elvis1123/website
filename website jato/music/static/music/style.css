@@ -1,0 +1,11 @@
+body {
+    background: white url("images/white-paper-desktop-wallpapers.jpg");
+}
+
+.navbar{
+    border-radius:0;
+}
+
+.navbar-brend{
+    font-family: 'Satisfy',cursive;
+}

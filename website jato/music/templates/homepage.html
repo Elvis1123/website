@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jatoo</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel = "stylesheet" type="text/css" href="{% static 'music/style.css' %}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <header>
+    <h1>Dobro došli na jato.ba</h1>
+    <h3>Benči ti se moras logovati</h3>
+    <p>Vi ostali ne morate</p>
+  </header>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <!--header -->
+
+        <!--individual items-->
+        <div class="collapse navbar-collapse" id ="topNavBar">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                    <a href="music/accounts/register">
+                        <span class="glyphicon glyphicon-registration-mark" aria-hidden="true"></span>&nbsp;Register
+                    </a>
+                </li>
+                <li class="">
+                    <a href="music/accounts/login">
+                        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;Login
+                    </a>
+                </li>
+
+            </ul>
+            <img src="https://scontent.fsjj2-1.fna.fbcdn.net/v/t1.0-9/49281875_10216806616613310_8721479304153661440_o.jpg?_nc_cat=108&_nc_ohc=z41VrIeWcpoAQmhJKdSTa52W3nSUbCv8f8uBN6JDjNYhVWVogU0hkiAOQ&_nc_ht=scontent.fsjj2-1.fna&oh=83d1e34d43451104a0caebe23a6e52c8&oe=5E9C099F" width="700" height="500" alt="Photo of 3 cats">
+
+
+        </div>
+
+
+    </div>
+</nav>
+{% block body %}
+{% endblock %}
+</body>
+</html>
